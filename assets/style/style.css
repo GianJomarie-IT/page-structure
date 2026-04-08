@@ -15,7 +15,12 @@ body {
 }
 
 img { 
-    max-width: 100%; border-radius: 5px; margin-bottom: 10px; 
+    max-width: 100%; border-radius: 5px; margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover{
+    transform: scale(2);    
 }
 
 .main {
